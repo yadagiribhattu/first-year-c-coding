@@ -1,0 +1,22 @@
+long factorial(int n)  
+{  
+long int r=1;
+  While(n!=0)
+{
+r=r*n;
+n--;
+}
+return(r);
+}  
+   
+void main()  
+{  
+  int number;  
+  long fact;  
+  printf("Enter a number: ");  
+  scanf("%d", &number);   
+   
+  fact = factorial(number);  
+  printf("Factorial of %d is %ld\n", number, fact);  
+  
+}  
