@@ -1,0 +1,24 @@
+#include<stdio.h>
+void display(int a,int b);
+int main()
+{
+	int n,m;
+	scanf("%d %d",&n,&m);
+	display(n,m);
+	 return 0;
+	 
+}
+void display(int a,int b)
+{
+		printf("\n%d\n",a);
+	if(a>=b)
+	{
+		return;
+	}
+	else
+	{
+		display(a+1,b);
+	}
+
+	
+}
